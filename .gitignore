@@ -1,3 +1,6 @@
 .vscode/
 venv/
 geckodriver.log
+db.sqlite3
+FINAL_PJT/iotd/migrations/
+__pycache__/
