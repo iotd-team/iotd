@@ -106,6 +106,6 @@ def crawling(request):
 
         driver.close()
 
-        return redirect('iotd:index')
+        return render(request, 'crawling.html')
     else:
         return render(request, 'crawling.html')
